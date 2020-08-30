@@ -2,8 +2,13 @@ body{
     font-family: 'Roboto', sans-serif !important;
 }
 
-h5 {
+h3, h5 {
     text-align: center;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em!important;
 }
 
 .navbar-default {
@@ -24,7 +29,7 @@ h5 {
 }
 
 .bg-perso {
-  background-color: #a1d2f0 !important;
+  background-color: #e2eff8 !important;
 }
 
 .fas {
@@ -40,7 +45,7 @@ h5 {
 }
 
 #career .card {
-  min-height: 250px;
+  min-height: 285px;
 }
 
 footer .social-networks a {
