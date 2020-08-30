@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+h5 {
+    text-align: center;
+}
+
+.bg-perso {
+  background-color: #a1d2f0 !important;
+}
+
+#about, #skills, #portfolio, #career {
+  padding: 20px 0;
+}
+
+#skills, #career {
+  background-color: rgb(236, 235, 235);
+}
+
+#skills .card{
+  min-height: 240px;
+}
+
+#career .card {
+  min-height: 250px;
+}
+
+.fas {
+  color: green !important;
+}
