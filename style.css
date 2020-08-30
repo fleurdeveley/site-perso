@@ -6,12 +6,29 @@ h5 {
     text-align: center;
 }
 
-.bg-perso {
-  background-color: #a1d2f0 !important;
+.navbar-default {
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#header {
+  background: url("img/desk.jpg") no-repeat center top;
+  min-height: 380px;
+  padding-top: 150px;
+  margin-top: -70px;
 }
 
 #about, #skills, #portfolio, #career {
   padding: 20px 0;
+}
+
+.bg-perso {
+  background-color: #a1d2f0 !important;
+}
+
+.fas {
+  color: green !important;
 }
 
 #skills, #career {
@@ -26,6 +43,6 @@ h5 {
   min-height: 250px;
 }
 
-.fas {
-  color: green !important;
+footer .social-networks a {
+  color: #fff;
 }
