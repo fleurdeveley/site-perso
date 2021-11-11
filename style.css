@@ -54,7 +54,12 @@ h3 {
   color: #9C747C !important;
 }
 
-.fab,
+.fab {
+  color: #565656 !important;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon span,
 .far,
 .fas
 {
@@ -63,7 +68,9 @@ h3 {
 
 #portfolio, 
 #about, 
-#contact {
+#contact,
+#footer
+{
   padding: 60px 0 0;
 }
 
