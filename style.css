@@ -12,6 +12,33 @@ h3 {
   font-size: 3em !important;
 }
 
+.fab {
+  color: #565656 !important;
+  padding: 20px;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon span,
+.far,
+.fas
+{
+  color: #F7E6EA !important;
+}
+
+#portfolio, 
+#about, 
+#contact,
+#footer
+{
+  padding: 60px 0 0;
+}
+
+#header {
+  min-height: 380px;
+  padding-top: 200px;
+  margin-top: -70px;
+}
+
 /* background color palette */
 .bg-grey {
   background-color: #d9d9d9 !important;
@@ -52,30 +79,4 @@ h3 {
 
 .color-bazaar {
   color: #9C747C !important;
-}
-
-.fab {
-  color: #565656 !important;
-}
-
-.navbar-toggler,
-.navbar-toggler-icon span,
-.far,
-.fas
-{
-  color: #F7E6EA !important;
-}
-
-#portfolio, 
-#about, 
-#contact,
-#footer
-{
-  padding: 60px 0 0;
-}
-
-#header {
-  min-height: 380px;
-  padding-top: 200px;
-  margin-top: -70px;
 }
