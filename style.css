@@ -17,12 +17,12 @@ h3 {
   padding: 20px;
 }
 
-.navbar-toggler,
 .far,
 .fas
 {
   color: #F7E6EA !important;
 }
+
 .btn {
   border-color: #212529;
   color: #212529 !important;
@@ -33,10 +33,15 @@ h3 {
   background-color: #565656 !important;
 }
 
-.btn:focus {
+.btn:focus,
+button.navbar-toggler:focus
+{
+  box-shadow: none;
+}
+
+.btn:focus {  
   color: #F7E6EA !important;
   background-color: #565656 !important;
-  box-shadow: none;
 }
 
 #header {
