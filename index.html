@@ -3,76 +3,78 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description"
-    content="Développeuse PHP / Symfony sur le secteur d'Antibes et Sophia-Antipolis, 
+  <meta name="description" content="Développeuse PHP / Symfony sur le secteur d'Antibes et Sophia-Antipolis, 
     je suis à la recherche d'opportunités.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Fleur DEVELEY</title>
 
   <!-- Bootstrap 5.1.1 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
-        rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
-        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
-  <link rel="icon" type="image/png" href="img/favicon.png"/>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
 
 <body>
-  <!--Navigation-->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-scorpio px-4">
-    <a class="navbar-brand py-0" href="#header">
-      <i class="fas fa-leaf"> FD</i>
-    </a>
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="mainNavbar">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">
-            <i class="far fa-file-code"> Portfolio</i>
-          </a>
-        </li>
-    
-        <li class="nav-item">
-          <a class="nav-link" href="#about">
-            <i class="far fa-user"> A propos</i>
-          </a>
-        </li>
-    
-<!--         <li class="nav-item">	
-          <a class="nav-link" href="#contact">
-            <i class="far fa-address-card"> Contact</i>
-          </a>
-        </li> -->
-    
-        <li class="nav-item">	
-          <a class="nav-link" href="img/CV_Fleur_Develey.pdf" target="_blank">
-            <i class="far fa-file"> Curriculum Vitae</i>
-          </a>
-        </li>	
-      </ul>
-    </div>
-  </nav>
-
   <div class="container">
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-scorpio px-4">
+      <div class="container-fluid">
+        <a class="navbar-brand py-0" href="#header">
+          <i class="fas fa-leaf"> FD</i>
+        </a>
+
+        <button class="navbar-toggler color-vanillaice" type="button" data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">
+                <i class="far fa-file-code"> Portfolio</i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">
+                <i class="far fa-user"> A propos</i>
+              </a>
+            </li>
+
+            <!--             <li class="nav-item">
+              <a class="nav-link" href="#contact">
+                <i class="far fa-address-card"> Contact</i>
+              </a>
+            </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="img/CV_Fleur_Develey.pdf" target="_blank">
+                <i class="far fa-file"> Curriculum Vitae</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!--Header-->
     <header id="header">
       <div class="row">
         <div class="col-12 text-center">
-          <img src="img/logo.png" alt="...">
+          <img src="img/logo.png" class="img-fluid" alt="logo">
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 d-flex justify-content-center m-3">
-          <a href="https://www.linkedin.com/in/fleur-develey-8b4b4718a" target="_blank"> <i class="fab fa-linkedin fa-2x"></i> </a>
-          <a href="https://github.com/fleurdeveley/" target="_blank"> <i class="fab fa-github-square fa-2x"></i> </a>  
+
+      <div class="row m-3">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/fleur-develey-8b4b4718a" target="_blank"> <i
+              class="fab fa-linkedin fa-2x"></i> </a>
+          <a href="https://github.com/fleurdeveley/" target="_blank"> <i class="fab fa-github-square fa-2x"></i> </a>
         </div>
       </div>
     </header>
@@ -86,154 +88,156 @@
       </div>
 
       <div class="row p-1">
-        <div class="col-xs-12 col-lg-6">
+        <div class="col-md-12 col-lg-6">
           <div class="card border-dark mb-3">
             <h4 class="card-header">Chalets et caviar</h4>
             <img src="img/chaletsetcaviar.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center">Site d'une agence immobilière de prestige à Courchevel</p>    
-                <div class="d-flex justify-content-around">
-                  <h5><span class="badge bg-danger">WORDPRESS</span></h5>
-                </div>
+            <div class="card-body">
+              <p class="card-text text-center">Site d'une agence immobilière de prestige à Courchevel</p>
+              <div class="d-flex flex-wrap justify-content-around">
+                <h5><span class="badge bg-danger">WORDPRESS</span></h5>
               </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-around">
-                  <a href="https://projet2.fleurdeveley.fr/" target="_blank" class="btn btn-outline-dark">Démo</a>
-                </div>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <a href="https://projet2.fleurdeveley.fr/" target="_blank" class="btn">Démo</a>
               </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-xs-12 col-lg-6">
+        <div class="col-md-12 col-lg-6">
           <div class="card border-dark mb-3">
             <h4 class="card-header">SnowTricks</h4>
             <img src="img/snowtricks.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center">Site communautaire de snowboard</p>    
-                <div class="d-flex justify-content-around">
-                  <h5><span class="badge bg-danger">SYMFONY</span></h5>
-                  <h5><span class="badge bg-danger">MVC</span></h5>
-                  <h5><span class="badge bg-danger">COMPOSER</span></h5>
-                  <h5><span class="badge bg-danger">UML</span></h5>
-                  <h5><span class="badge bg-danger">BOOTSTRAP</span></h5>
-                </div>
+            <div class="card-body">
+              <p class="card-text text-center">Site communautaire de snowboard</p>
+              <div class="d-flex flex-wrap justify-content-around">
+                <h5><span class="badge bg-danger">SYMFONY</span></h5>
+                <h5><span class="badge bg-danger">MVC</span></h5>
+                <h5><span class="badge bg-danger">COMPOSER</span></h5>
+                <h5><span class="badge bg-danger">UML</span></h5>
+                <h5><span class="badge bg-danger">BOOTSTRAP</span></h5>
               </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-around">
-                  <a href="#" target="_blank" class="btn btn-outline-dark">Démo</a>
-                  <a href="https://github.com/fleurdeveley/OC_P6_SnowTricks" target="_blank" class="btn btn-outline-dark">Code</a>
-                </div>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <a href="https://projet6.fleurdeveley.fr/" target="_blank" class="btn">Démo</a>
+                <a href="https://github.com/fleurdeveley/OC_P6_SnowTricks" target="_blank" class="btn">Code</a>
               </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-xs-12 col-lg-6">
+        <div class="col-md-12 col-lg-6">
           <div class="card border-dark mb-3">
             <h4 class="card-header">Blog</h4>
             <img src="img/blog.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center">Blog</p>    
-                <div class="d-flex justify-content-around">
-                  <h5><span class="badge bg-danger">PHP</span></h5>
-                  <h5><span class="badge bg-danger">MySQL</span></h5>
-                  <h5><span class="badge bg-danger">POO</span></h5>
-                  <h5><span class="badge bg-danger">MVC</span></h5>
-                  <h5><span class="badge bg-danger">COMPOSER</span></h5>
-                  <h5><span class="badge bg-danger">UML</span></h5>
-                  <h5><span class="badge bg-danger">BOOTSTRAP</span></h5>
-                </div>
+            <div class="card-body">
+              <p class="card-text text-center">Blog</p>
+              <div class="d-flex flex-wrap justify-content-around">
+                <h5><span class="badge bg-danger">PHP</span></h5>
+                <h5><span class="badge bg-danger">MySQL</span></h5>
+                <h5><span class="badge bg-danger">POO</span></h5>
+                <h5><span class="badge bg-danger">MVC</span></h5>
+                <h5><span class="badge bg-danger">COMPOSER</span></h5>
+                <h5><span class="badge bg-danger">UML</span></h5>
+                <h5><span class="badge bg-danger">BOOTSTRAP</span></h5>
               </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-around">
-                  <a href="https://projet5.fleurdeveley.fr/" target="_blank" class="btn btn-outline-dark">Démo</a>
-                  <a href="https://github.com/fleurdeveley/OC_P5_Blog" target="_blank" class="btn btn-outline-dark">Code</a>
-                </div>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <a href="https://projet5.fleurdeveley.fr/" target="_blank" class="btn">Démo</a>
+                <a href="https://github.com/fleurdeveley/OC_P5_Blog" target="_blank" class="btn">Code</a>
               </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-xs-12 col-lg-6">
+        <div class="col-md-12 col-lg-6">
           <div class="card border-dark mb-3">
             <h4 class="card-header">BileMo</h4>
             <img src="img/api.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center">Création d'un service web exposant une API mettant à disposition un catalogue de smartphones, pour du B2B.</p>    
-                <div class="d-flex justify-content-around">
-                  <h5><span class="badge bg-danger">SYMFONY</span></h5>
-                  <h5><span class="badge bg-danger">API REST</span></h5>
-                </div>
+            <div class="card-body">
+              <p class="card-text text-center">Création d'un service web exposant une API mettant à disposition un
+                catalogue de smartphones, pour du B2B.</p>
+              <div class="d-flex flex-wrap justify-content-around">
+                <h5><span class="badge bg-danger">SYMFONY</span></h5>
+                <h5><span class="badge bg-danger">API REST</span></h5>
               </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-around">
-                  <a href="https://github.com/fleurdeveley/OC_P7_BileMo" target="_blank" class="btn btn-outline-dark">Code</a>
-                </div>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <a href="https://github.com/fleurdeveley/OC_P7_BileMo" target="_blank" class="btn">Code</a>
               </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-xs-12 col-lg-6">
+        <div class="col-md-12 col-lg-6">
           <div class="card border-dark mb-3">
             <h4 class="card-header">ToDoList</h4>
             <img src="img/todolist.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center">Amélioration d’une application existante sur la gestion d’une ToDoList. Réalisation de tests unitaires et fonctionnels. Amélioration de la qualité du code et des performances.</p>    
-                <div class="d-flex justify-content-around">
-                  <h5><span class="badge bg-danger">SYMFONY</span></h5>
-                  <h5><span class="badge bg-danger">PHPUNIT</span></h5>
-                  <h5><span class="badge bg-danger">CODACY</span></h5>
-                  <h5><span class="badge bg-danger">BLACKFIRE</span></h5>
-                </div>
+            <div class="card-body">
+              <p class="card-text text-center">Amélioration d’une application existante sur la gestion d’une ToDoList.
+                Réalisation de tests unitaires et fonctionnels. Amélioration de la qualité du code et des performances.
+              </p>
+              <div class="d-flex flex-wrap justify-content-around">
+                <h5><span class="badge bg-danger">SYMFONY</span></h5>
+                <h5><span class="badge bg-danger">PHPUNIT</span></h5>
+                <h5><span class="badge bg-danger">CODACY</span></h5>
+                <h5><span class="badge bg-danger">BLACKFIRE</span></h5>
               </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-around">
-                  <a href="https://github.com/fleurdeveley/OC_P8_ToDo-Co" target="_blank" class="btn btn-outline-dark">Code</a>
-                </div>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <a href="https://github.com/fleurdeveley/OC_P8_ToDo-Co" target="_blank" class="btn">Code</a>
               </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-xs-12 col-lg-6">
+        <div class="col-md-12 col-lg-6">
           <div class="card border-dark mb-3">
             <h4 class="card-header">Combis & Roads</h4>
             <img src="img/combis&road.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center"> Site communautaire de vans Volkswagen de collection</p>    
-                <div class="d-flex justify-content-around">
-                  <h5><span class="badge bg-danger">PHP</span></h5>
-                  <h5><span class="badge bg-danger">MVC</span></h5>
-                  <h5><span class="badge bg-danger">POO</span></h5>
-                  <h5><span class="badge bg-danger">MySQL</span></h5>
-                </div>
+            <div class="card-body">
+              <p class="card-text text-center"> Site communautaire de vans Volkswagen de collection</p>
+              <div class="d-flex flex-wrap justify-content-around">
+                <h5><span class="badge bg-danger">PHP</span></h5>
+                <h5><span class="badge bg-danger">MVC</span></h5>
+                <h5><span class="badge bg-danger">POO</span></h5>
+                <h5><span class="badge bg-danger">MySQL</span></h5>
               </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-around">
-                  <a href="https://combis.fleurdeveley.fr" target="_blank" class="btn btn-outline-dark">Démo</a>
-                  <a href="https://github.com/fleurdeveley/combi-co" target="_blank" class="btn btn-outline-dark">Code</a>
-                </div>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <a href="https://combis.fleurdeveley.fr" target="_blank" class="btn">Démo</a>
+                <a href="https://github.com/fleurdeveley/combi-co" target="_blank" class="btn">Code</a>
               </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-xs-12 col-lg-6">
-            <div class="card border-dark mb-3">
-              <h4 class="card-header">La Combinaison Gagnante</h4>
-              <img src="img/des.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Plugin wordpress jeux de dés "La Combinaison Gagnante"</p>    
-                  <div class="d-flex justify-content-around">
-                    <h5><span class="badge bg-danger">WORDPRESS</span></h5>
-                    <h5><span class="badge bg-danger">WIDGETS</span></h5>
-                  </div>
-                </div>
-                <div class="card-footer">
-                  <div class="d-flex justify-content-around">
-                    <a href="https://wordpress-des.fleurdeveley.fr/" target="_blank" class="btn btn-outline-dark">Démo</a>
-                    <a href="https://github.com/fleurdeveley/jet_des" target="_blank" class="btn btn-outline-dark">Code</a>
-                  </div>
-                </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="card border-dark mb-3">
+            <h4 class="card-header">La Combinaison Gagnante</h4>
+            <img src="img/des.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Plugin wordpress jeux de dés "La Combinaison Gagnante"</p>
+              <div class="d-flex flex-wrap justify-content-around">
+                <h5><span class="badge bg-danger">WORDPRESS</span></h5>
+                <h5><span class="badge bg-danger">WIDGETS</span></h5>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <a href="https://wordpress-des.fleurdeveley.fr/" target="_blank" class="btn">Démo</a>
+                <a href="https://github.com/fleurdeveley/jet_des" target="_blank" class="btn">Code</a>
+              </div>
             </div>
           </div>
-
+        </div>
       </div>
     </section>
 
@@ -248,15 +252,17 @@
       <div class="row p-1">
         <div class="col-12 text-justify">
           <p>
-            Après 15 ans d'expérience en tant que secrétaire médicale, j'ai travaillé dans différents cabinets de ville et association. 
+            Après 15 ans d'expérience en tant que secrétaire médicale, j'ai travaillé dans différents cabinets de ville
+            et association.
             Cela m’a apporté de la rigueur, de l’autonomie et des responsabilités.
           </p>
           <p>
-            J’ai pris un virage professionnel en changeant de branche. Je me suis orientée dans le domaine de l’informatique. <br>
-            J’ai fait le choix du développement web pour : <br>   
-              - les opportunités et les évolutions de carrières, <br>
-              - les formations accessibles, <br>
-              - dans un domaine innovant et en constante évolution. <br>
+            J’ai pris un virage professionnel en changeant de branche. Je me suis orientée dans le domaine de
+            l’informatique. <br>
+            J’ai fait le choix du développement web pour : <br>
+            - les opportunités et les évolutions de carrières, <br>
+            - les formations accessibles, <br>
+            - dans un domaine innovant et en constante évolution. <br>
           </p>
           <p>Je suis à la recherche d'opportunité en tant que développeuse PHP / Symfony.</p>
         </div>
@@ -264,7 +270,7 @@
     </section>
 
     <!--Contact-->
-<!--     <section id="contact">
+    <!--     <section id="contact">
       <div class="row p-1">
         <div class="col-12">
           <h3>Contactez-moi</h3>
@@ -294,22 +300,22 @@
 
   <!--Footer-->
   <footer id="footer">
-    <div class="text-center bg-scorpio">
-      <div class="d-flex justify-content-around color-vanillaice">
-        Copyright © 2021
+    <div class="container-fluid">
+      <div class="text-center text-lg-start bg-scorpio">
+        <div class="text-center color-vanillaice p-3">
+          Copyright © 2021
+        </div>
       </div>
     </div>
   </footer>
-
-<!-- Bootstrap 5.0.1 js -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-        crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-        crossorigin="anonymous">
-</script>
+  
+  <!-- Bootstrap 5.0.1 js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+    </script>
 
 </body>
 

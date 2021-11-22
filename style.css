@@ -18,19 +18,25 @@ h3 {
 }
 
 .navbar-toggler,
-.navbar-toggler-icon span,
 .far,
 .fas
 {
   color: #F7E6EA !important;
 }
+.btn {
+  border-color: #212529;
+  color: #212529 !important;
+}
 
-#portfolio, 
-#about, 
-#contact,
-#footer
-{
-  padding: 60px 0 0;
+.btn:hover {
+  color: #F7E6EA !important;
+  background-color: #565656 !important;
+}
+
+.btn:focus {
+  color: #F7E6EA !important;
+  background-color: #565656 !important;
+  box-shadow: none;
 }
 
 #header {
@@ -39,15 +45,18 @@ h3 {
   margin-top: -70px;
 }
 
+#portfolio, 
+#about, 
+#contact
+{
+  padding: 60px 0 0;
+}
+
+#footer {
+  padding: 60px 0 20px;
+}
+
 /* background color palette */
-.bg-grey {
-  background-color: #d9d9d9 !important;
-}
-
-.bg-yellow {
-  background-color: #f7bc58 !important;
-}
-
 .bg-kobi {
   background-color: #E3A5B7 !important;
 }
