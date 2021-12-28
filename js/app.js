@@ -26,12 +26,42 @@
                 var h4 = document.createElement("h4");
                 h4.classList.add("card-header");
                 h4.innerText = project.title;
-
-
-
                 card.appendChild(h4);
 
+                var img = new Image();
+                img.src = 'img/' + project.image;
+                img.classList.add("card-img-top");
+                card.appendChild(img);
+
+                var cardFooter = document.createElement("div");
+                cardFooter.classList.add("card-footer");
+
+                var cardFooterContent = document.createElement('div');
+                cardFooterContent.classList.add("d-flex", "justify-content-around");
+
+                if(project.url_site.length >0) {
+                    var demo = document.createElement("a");
+                    demo.href = project.url_site;
+                    demo.setAttribute("target", "_blank");
+                    demo.classList.add("btn");
+                    demo.innerText = "Démo";
+                    
+                    cardFooterContent.appendChild(demo);
+                }
+
+                if(project.url_github.length > 0) {
+                    var gitHub = document.createElement("a");
+                    gitHub.href = project.url_github;
+                    gitHub.setAttribute("target", "_blank");
+                    gitHub.classList.add("btn");
+                    gitHub.innerText = "GitHub";   
                 
+                    cardFooterContent.appendChild(gitHub);
+                }
+
+                cardFooter.appendChild(cardFooterContent);
+                card.appendChild(cardFooter);
+
                 col.appendChild(card);
 
                 var row = document.getElementById('projects');
